@@ -1,0 +1,24 @@
+{
+    "name": "adaojunior/laravel-postgresql-broadcast-driver",
+    "description": "Postgresql broadcasting events driver for Laravel",
+    "type": "library",
+    "keywords": ["postgresql","broadcasting","laravel"],
+    "homepage": "https://github.com/adaojunior/laravel-postgresql-broadcast-driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adão Júnior",
+            "email": "itsjunnior@gmail.com",
+            "homepage": "https://github.com/adaojunior",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adaojunior\\PostgreSqlBroadcastDriver\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "~5.1"
+    }
+}
