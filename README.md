@@ -73,7 +73,7 @@ Now to publish in your application simply fire the event:
 event(new App\Events\Message('Test publish!!!'));
 ```
 
-NodeJS Client (opcional)
+NodeJS Client (optional)
 -------------------------------
 ``` sh
 npm install pg-pubsub --save
